@@ -1,0 +1,9 @@
+.nav{
+    padding-top: var(--padding-container);
+    padding-bottom: var(--padding-container);
+}
+
+.nav__logo{
+    border-radius: 50%;
+    display: flex;
+}
