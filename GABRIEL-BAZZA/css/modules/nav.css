@@ -1,12 +1,12 @@
 .nav{
     padding-top: var(--padding-container);
     padding-bottom: var(--padding-container);
-    --test: blue;
+    --translate-list-header:100%;
 }
 
 
 .nav:target{
-    --test: green;
+    --translate-list-header:0%;
 }
 
 .nav__logo{
