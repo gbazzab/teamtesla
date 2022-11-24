@@ -7,9 +7,23 @@
 
 
 .hero__name{
-    font-size: 4rem;
+    font-size: 3rem;
+    text-decoration: none;
 }
 
+.hero__letter{
+    position: relative;
+}
+
+
+.hero__letter::after{
+    content: var(--letter);
+    position: absolute;
+    left: 0;
+    top: 87.5%;
+    filter: blur(0.0625rem);
+    transform: rotateX(137.5deg);
+}
 
 .hero__letter:nth-child(1){
     color: #EC0B6A;
