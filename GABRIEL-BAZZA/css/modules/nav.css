@@ -2,14 +2,35 @@
     padding-top: var(--padding-container);
     padding-bottom: var(--padding-container);
     --translate-list-header:100%;
+    --scale-menu:1;
+    --scale-close:0;
+    position: relative;
 }
 
 
 .nav:target{
-    --translate-list-header:0%;
+    --translate-list-header:0;
+    --scale-menu:0;
+    --scale-close:1;
 }
 
 .nav__logo{
     border-radius: 50%;
     display: flex;
+}
+
+.nav__icon{
+    position: absolute;
+    right: var(--padding-container);
+    font-size: 1.75rem;
+    text-decoration: none;
+    transition: transform 0.25s;
+}
+
+.nav__icon--menu{
+    transform: scale(var(--scale-menu));
+}
+
+.nav__icon--close{
+    transform: scale(var(--scale-close));
 }
