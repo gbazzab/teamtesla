@@ -4,3 +4,37 @@
     align-items: center;
     min-height: 100vh;
 }
+
+
+.hero__name{
+    font-size: 4rem;
+}
+
+
+.hero__letter:nth-child(1){
+    color: #EC0B6A;
+}
+
+.hero__letter:nth-child(2){
+    color: #EC6E0B;
+}
+
+.hero__letter:nth-child(3){
+    color: #6EEC0B;
+}
+
+.hero__letter:nth-child(4){
+    color: #0BECBC;
+}
+
+.hero__letter:nth-child(5){
+    color: #0B60EC;
+}
+
+.hero__letter:nth-child(6){
+    color: #AF0BEC;
+}
+
+.hero__letter:nth-child(7){
+    color: #E2EC0B;
+}
