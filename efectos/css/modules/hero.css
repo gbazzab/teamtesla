@@ -7,14 +7,29 @@
 
 
 .hero__name{
+    display: block;
     font-size: 3rem;
     text-decoration: none;
+    animation: zoom 1s linear 0s infinite alternate;
 }
 
 .hero__letter{
     position: relative;
+    transition: filter 1s ease-in-out;
 }
 
+.hero__letter:hover{
+    filter: brightness(10);
+}
+
+.hero__letter::before{
+    content: var(--letter);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(1.125);
+    filter: blur(0.125rem);
+}
 
 .hero__letter::after{
     content: var(--letter);
