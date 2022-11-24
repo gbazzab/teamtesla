@@ -1,6 +1,12 @@
 .nav{
     padding-top: var(--padding-container);
     padding-bottom: var(--padding-container);
+    --test: blue;
+}
+
+
+.nav:target{
+    --test: green;
 }
 
 .nav__logo{
