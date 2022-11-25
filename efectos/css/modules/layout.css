@@ -1,3 +1,29 @@
+.section{
+    padding-top: var(--padding-section);
+    padding-bottom: var(--padding-section);
+}
+
+.section--hero{
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.container{
+    padding-left: var(--padding-container);
+    padding-right: var(--padding-container);
+    max-width: var(--max-width-container);
+    margin: 0 auto;
+}
+
+.f-elements{
+    display: flex;
+}
+
+.f-elements--center{
+    align-items: center;
+    justify-content: center;
+}
+
 .hero{
     display: flex;
     justify-content: center;
@@ -41,7 +67,7 @@
 }
 
 .hero__letter:nth-child(1){
-    color: #EC0B6A;
+    color: #220bec;
 }
 
 .hero__letter:nth-child(2){
@@ -67,3 +93,4 @@
 .hero__letter:nth-child(7){
     color: #E2EC0B;
 }
+

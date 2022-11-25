@@ -1,10 +1,10 @@
-@import './modules/hero.css';
+@import './modules/layout.css';
 @import '././modules/variables.css';
 @import '././modules/animations.css';
 
 .body{
     background-image: linear-gradient(var(--primary-theme-color),var(--secundary-theme-color));
     color: var(--primary-text-color);
-    font-family: serif;
+    font-family: var(--primary-font-family);
     margin: 0;
 }

@@ -1,3 +1,12 @@
+.section{
+    padding-top: var(--padding-section);
+    padding-bottom: var(--padding-section);
+}
+
+.section--hero{
+    min-height: 100vh;
+}
+
 .container{
     padding-left: var(--padding-container);
     padding-right: var(--padding-container);

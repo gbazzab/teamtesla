@@ -1,6 +1,12 @@
 :root{
+    scroll-behavior: smooth;
     --primary-theme-color:deeppink;
     --secundary-theme-color: black;
     --primary-text-color: white;
-    --primary-hightlight-color: aqua;
+    --primary-hightlight-color: #00ffff;
+    --primary-font-family: serif;
+    --max-width-container: 1024px;
+    --padding-section: 1.5rem;
+    --padding-container: 1rem;
+    --primary-border-radius: 0.5rem;
 }
