@@ -4,6 +4,10 @@
 }
 
 .section--hero{
+    background-image: url('https://i.postimg.cc/7PJV8Dp8/react-01-01-wpo.webp');
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
     min-height: 100vh;
 }
 
@@ -26,4 +30,29 @@
 .f-elements--center{
     align-items: center;
     justify-content: center;
+}
+
+.f-elements--responsive {
+    flex-direction: column;
+}
+
+.g-elements{
+    display: grid;
+    
+}
+
+.g-elements--responsive{
+    grid-template-columns: 100%;
+    
+}
+
+@media (min-width: 768px) {
+    .f-elements--responsive {
+    flex-direction: row;
+    }
+
+    .g-elements--responsive{
+        grid-template-columns: 1fr 1fr;
+        
+    }
 }

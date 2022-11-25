@@ -1,5 +1,13 @@
+.d-none{
+    display: none;
+}
+
 .p-relative{
     position: relative;
+}
+
+.flex-1 {
+    flex: 1;
 }
 
 .f-direction-column{
@@ -17,5 +25,11 @@
 @media (min-width: 768px){
     .md\:f-direction-row{
         flex-direction: row;
+    }
+}
+
+@media (min-width: 768px){
+    .md\:d-block{
+        display: block;
     }
 }
