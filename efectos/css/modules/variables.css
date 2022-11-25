@@ -1,10 +1,18 @@
 :root{
     scroll-behavior: smooth;
-    --primary-theme-color:deeppink;
+    --primary-theme-color:rgba(143, 207, 172, 0.603);
     --secundary-theme-color: black;
     --primary-text-color: white;
     --primary-hightlight-color: #00ffff;
+    --letter-color-1: #220bec;
+    --letter-color-2: #EC6E0B;
+    --letter-color-3: #6EEC0B;
+    --letter-color-4: #0BECBC;
+    --letter-color-5: #0B60EC;
+    --letter-color-6: #AF0BEC;
+    --letter-color-7: #E2EC0B;
     --primary-font-family: serif;
+    --secundary-font-family: 'Allerta Stencil', sans-serif;
     --max-width-container: 1024px;
     --padding-section: 1.5rem;
     --padding-container: 1rem;

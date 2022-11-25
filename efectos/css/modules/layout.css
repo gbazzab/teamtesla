@@ -32,23 +32,24 @@
 }
 
 
-.hero__name{
-    display: block;
+.section__name{
+    display: flex;
     font-size: 3rem;
     text-decoration: none;
     animation: zoom 1s linear 0s infinite alternate;
 }
 
-.hero__letter{
+.section__letter{
+    /* display: flex; */
     position: relative;
     transition: filter 1s ease-in-out;
 }
 
-.hero__letter:hover{
+.section__letter:hover{
     filter: brightness(10);
 }
 
-.hero__letter::before{
+.section__letter::before{
     content: var(--letter);
     position: absolute;
     top: 0;
@@ -57,7 +58,7 @@
     filter: blur(0.125rem);
 }
 
-.hero__letter::after{
+.section__letter::after{
     content: var(--letter);
     position: absolute;
     left: 0;
@@ -66,31 +67,35 @@
     transform: rotateX(137.5deg);
 }
 
-.hero__letter:nth-child(1){
-    color: #220bec;
+.section__letter:nth-child(1){
+    color: var(--letter-color-1);
 }
 
-.hero__letter:nth-child(2){
-    color: #EC6E0B;
+.section__letter:nth-child(2){
+    color: var(--letter-color-2);
 }
 
-.hero__letter:nth-child(3){
-    color: #6EEC0B;
+.section__letter:nth-child(3){
+    color: var(--letter-color-3);
 }
 
-.hero__letter:nth-child(4){
-    color: #0BECBC;
+.section__letter:nth-child(4){
+    color: var(--letter-color-4);
 }
 
-.hero__letter:nth-child(5){
-    color: #0B60EC;
+.section__letter:nth-child(5){
+    color: var(--letter-color-5);
 }
 
-.hero__letter:nth-child(6){
-    color: #AF0BEC;
+.section__letter:nth-child(6){
+    color: var(--letter-color-6);
 }
 
-.hero__letter:nth-child(7){
-    color: #E2EC0B;
+.section__letter:nth-child(7){
+    color: var(--letter-color-7);
 }
 
+.section__verse{
+    font-weight: 700;
+    text-shadow: 0 0 1rem var(--primary-hightlight-color);
+}
