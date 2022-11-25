@@ -34,7 +34,7 @@
 
 .section__name{
     display: flex;
-    font-size: 3rem;
+    font-size: 6rem;
     text-decoration: none;
     animation: zoom 1s linear 0s infinite alternate;
 }
@@ -98,4 +98,24 @@
 .section__verse{
     font-weight: 700;
     text-shadow: 0 0 1rem var(--primary-hightlight-color);
+}
+
+.section__verse::first-letter{
+    font-size: 3rem;
+}
+
+@media (min-width: 768px){
+
+    .section__name{
+        font-size: 12rem;
+    }
+
+    .section__verse{
+        font-size: 4rem;
+    }
+
+
+    .section__verse::first-letter{
+        font-size: 8rem;
+    }
 }
