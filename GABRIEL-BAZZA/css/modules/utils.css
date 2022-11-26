@@ -6,12 +6,20 @@
     position: relative;
 }
 
+.m-top-auto{
+    margin-top: auto;
+}
+
 .flex-1 {
     flex: 1;
 }
 
 .f-direction-column{
     flex-direction: column;
+}
+
+.j-items-center{
+    justify-items: center;
 }
 
 .gap-sm{

@@ -17,6 +17,14 @@
 
 }
 
+.card__img{
+    display: flex;
+    background-color: var(--secundary-shadow-color);
+    width: 100%;
+    height: 200;
+    object-fit: cover;
+}
+
 .card__body{
     background-color: var(--reverse-secondary-shadow-color);
     padding: 1rem;
@@ -43,4 +51,11 @@
 .card__footer{
     background-color: var(--reverse-primary-shadow-color);
     padding: 0.5rem 1rem;
+}
+
+@media (min-width: 768px) {
+    .card{
+        max-width: 512px;
+        
+    }
 }
