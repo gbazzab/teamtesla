@@ -1,3 +1,34 @@
+.section {
+    padding-top: var(--padding-section);
+    padding-bottom: var(--padding-section);
+    box-sizing: border-box;
+    &__tittle{
+        margin: 0;
+        font-size: 2rem;
+        font-weight: 900;
+        /* text-shadow: 
+            0 0 2.125rem red,
+            0 0 0.25rem gold;*/
+    }
+    &__subtittle{
+        margin: 0;
+        font-size: 1.5rem;
+        font-weight: 600;
+        /* text-shadow: 
+            0 0 2.125rem red,
+            0 0 0.25rem gold; */
+    }
+
+    &__text{
+        margin: 0;
+        font-size: 1rem;
+        /* text-shadow: 
+            0 0 2.125rem red,
+            0 0 0.25rem gold; */
+    }
+}
+
+
 .container {
     max-width: var(--max-width-container);
     margin: 0 auto;
@@ -12,5 +43,9 @@
     &--header {
         align-items: center;
         justify-content: space-between;
+    }
+    &--center {
+        align-items: center;
+        justify-content: center;
     }
 }

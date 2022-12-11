@@ -1,3 +1,32 @@
+.section {
+  padding-top: var(--padding-section);
+  padding-bottom: var(--padding-section);
+  box-sizing: border-box;
+}
+.section__tittle {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 900;
+  /* text-shadow: 
+      0 0 2.125rem red,
+      0 0 0.25rem gold;*/
+}
+.section__subtittle {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  /* text-shadow: 
+      0 0 2.125rem red,
+      0 0 0.25rem gold; */
+}
+.section__text {
+  margin: 0;
+  font-size: 1rem;
+  /* text-shadow: 
+      0 0 2.125rem red,
+      0 0 0.25rem gold; */
+}
+
 .container {
   max-width: var(--max-width-container);
   margin: 0 auto;
@@ -11,6 +40,10 @@
 .f-elements--header {
   align-items: center;
   justify-content: space-between;
+}
+.f-elements--center {
+  align-items: center;
+  justify-content: center;
 }
 
 .header {
@@ -53,8 +86,24 @@
   color: var(--primary-text-color);
 }
 
-.gap-sm {
+.min-h-100vh {
+  min-height: 100vh;
+}
+
+.gap-xs {
   gap: calc(var(--padding-section) * 0.25);
+}
+
+.gap-sm {
+  gap: calc(var(--padding-section) * 0.5);
+}
+
+.t-align-center {
+  text-align: center;
+}
+
+.f-direction-column {
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=fe.css.map */
